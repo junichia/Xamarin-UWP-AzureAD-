@@ -1,3 +1,17 @@
+[memo]
+This is copy from Microsoft Azure sample.
+https://github.com/Azure-Samples/active-directory-dotnet-native-multitarget
+
+I did as below to make them execute correctly.
+
+- install JDK 1.8
+- change JDK version for Andoroid app
+    [Tool]-[option]-[Xamarin]-[Android Settings]
+    Change "Java Development Kit Location" to JDK 1.8 path.
+- Update Microsoft.IdentityModel.Client.ActiveDirectory to latest version
+  This operation must be done for all projects(PCL,Android,iOS,Desktop,UWP)
+
+
 ---
 services: active-directory
 platforms: dotnet, xamarin
